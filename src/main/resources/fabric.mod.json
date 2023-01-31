@@ -1,21 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "earsmod",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Deadmau5's Ears",
+  "description": "Lets you use Deadmau5's ears",
   "authors": [
-    "Me!"
+    "nopo"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/NopoTheGamer/funny-ears-1.19"
   },
-
   "license": "CC0-1.0",
-  "icon": "assets/earsmod/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -25,7 +20,6 @@
   "mixins": [
     "earsmod.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.11",
     "fabric-api": "*",
